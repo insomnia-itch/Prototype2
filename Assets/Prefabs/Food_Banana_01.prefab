@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 7568386627804631403}
   - component: {fileID: 7575783527678187413}
   - component: {fileID: 7597693408799271958}
-  - component: {fileID: 1180138867490381}
   - component: {fileID: 7287733468633652679}
   - component: {fileID: 243716432337828681}
   - component: {fileID: 2482222014173113097}
+  - component: {fileID: 5038002955732987329}
   m_Layer: 0
   m_Name: Food_Banana_01
   m_TagString: Untagged
@@ -97,18 +97,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 35
---- !u!114 &1180138867490381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7598800394596655473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac5be1c5ef11bf343ab5ebf46776156d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &7287733468633652679
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -147,6 +135,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 7598800394596655473}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c64df782fc8bea4e8add763ac5575c2, type: 3}
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5038002955732987329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7598800394596655473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

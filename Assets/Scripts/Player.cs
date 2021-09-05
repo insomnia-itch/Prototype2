@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     public GameObject projectilePrefab;
     public float horizontalInput;
+    public float verticalInput;
     public float xRange = 10;
     private float speed = 10f;
     // Start is called before the first frame update
@@ -26,7 +27,11 @@ public class Player : MonoBehaviour
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
         horizontalInput = Input.GetAxis("Horizontal");
+        verticalInput = Input.GetAxis("Vertical");
+
         transform.Translate(Vector3.right * Time.deltaTime * horizontalInput * speed);
+        transform.Translate(Vector3.forward * Time.deltaTime * verticalInput * speed);
+
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
